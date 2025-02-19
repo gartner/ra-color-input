@@ -48,7 +48,7 @@ export const ColorInput = (
         // Save the color to state
         setColor(color);
         // Save the color to the input field
-        formContext.setValue(source, color.hex);
+        formContext.setValue(source, color.hex, { shouldDirty: true });
     }
 
     // Init the colorpicker
