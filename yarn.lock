@@ -999,6 +999,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@palustris/ra-color-input@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@palustris/ra-color-input@workspace:."
+  dependencies:
+    "@eslint/js": "npm:^9.19.0"
+    "@palustris/js-utils": "git+https://gitlab.palustris.dk/gartneriet/js-utils.git#master"
+    "@types/node": "npm:^22.13.4"
+    "@types/react": "npm:^19.0.8"
+    "@types/react-dom": "npm:^19.0.3"
+    "@vitejs/plugin-react-swc": "npm:^3.5.0"
+    eslint: "npm:^9.19.0"
+    eslint-config-prettier: "npm:^10.0.1"
+    eslint-plugin-react-hooks: "npm:^5.0.0"
+    eslint-plugin-react-refresh: "npm:^0.4.18"
+    glob: "npm:10.3.12"
+    globals: "npm:^15.14.0"
+    prettier: "npm:^3.5.1"
+    react: "npm:^18.3.0 || ^19.0.0"
+    react-admin: "npm:^5.5.0"
+    react-color: "npm:^2.19.3"
+    react-dom: "npm:^18.3.0 || ^19.0.0"
+    typescript: "npm:~5.7.2"
+    typescript-eslint: "npm:^8.22.0"
+    vite: "npm:^6.1.0"
+    vite-plugin-dts: "npm:^4.5.0"
+    vite-plugin-lib-inject-css: "npm:^2.2.1"
+  peerDependencies:
+    react: ">=18.3.0"
+    react-admin: ^5.5.0
+  languageName: unknown
+  linkType: soft
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -3713,38 +3745,6 @@ __metadata:
   checksum: 10c0/900a93d3cdae3acd7d16f642c29a642aea32c2026446151f0778c62ac089d4b8e6c986811076e1ae180a694cedf077d453a11b58ff0a865629a4f82ab558e102
   languageName: node
   linkType: hard
-
-"ra-color-input@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "ra-color-input@workspace:."
-  dependencies:
-    "@eslint/js": "npm:^9.19.0"
-    "@palustris/js-utils": "git+https://gitlab.palustris.dk/gartneriet/js-utils.git#master"
-    "@types/node": "npm:^22.13.4"
-    "@types/react": "npm:^19.0.8"
-    "@types/react-dom": "npm:^19.0.3"
-    "@vitejs/plugin-react-swc": "npm:^3.5.0"
-    eslint: "npm:^9.19.0"
-    eslint-config-prettier: "npm:^10.0.1"
-    eslint-plugin-react-hooks: "npm:^5.0.0"
-    eslint-plugin-react-refresh: "npm:^0.4.18"
-    glob: "npm:10.3.12"
-    globals: "npm:^15.14.0"
-    prettier: "npm:^3.5.1"
-    react: "npm:^18.3.0 || ^19.0.0"
-    react-admin: "npm:^5.5.0"
-    react-color: "npm:^2.19.3"
-    react-dom: "npm:^18.3.0 || ^19.0.0"
-    typescript: "npm:~5.7.2"
-    typescript-eslint: "npm:^8.22.0"
-    vite: "npm:^6.1.0"
-    vite-plugin-dts: "npm:^4.5.0"
-    vite-plugin-lib-inject-css: "npm:^2.2.1"
-  peerDependencies:
-    react: ">=18.3.0"
-    react-admin: ^5.5.0
-  languageName: unknown
-  linkType: soft
 
 "ra-core@npm:^5.5.3":
   version: 5.5.3
